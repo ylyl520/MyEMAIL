@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="邮件客户端"
+            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/aquamarine"
+            android:textSize="38sp"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:text="Powered By 1366138454@qq.com"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/textView4"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:text="Build with Android Studio 2.2.2 version"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/textView5"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:text="Work at home"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/textView6"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/menu_alist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="注销账户"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/second"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/paleturquoise" />
+
+        <Button
+            android:text="退出系统"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/first"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/lightcyan" />
+    </LinearLayout>
+
+</RelativeLayout>
